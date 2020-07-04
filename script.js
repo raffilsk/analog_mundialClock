@@ -42,7 +42,7 @@ function updateClockHous(){
     $('#secondSinga').css("transform", "rotate(" + second + "deg)");
   }
 
-function relogio(){
+function cabecalho(){
 let data = new Date()
 let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 let dayWeek = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
@@ -83,7 +83,7 @@ function timedUpdate () {
   updateClockRott();
   updateClockDubai();
   updateClockSinga();
-  relogio()
+  cabecalho()
 
   setTimeout(timedUpdate, 1000);
 }
